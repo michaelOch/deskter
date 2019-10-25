@@ -119,6 +119,9 @@ body {
 }
 
 .footer__section-copyright {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
     color: var(--theme-white);
 }
 
@@ -547,11 +550,22 @@ body {
     }
 
 	.chat__icon-wrapper {
-        width: 70px;
-        height: 70px;
+        width: 65px;
+        height: 65px;
         padding: 15px;
-        right: 2rem;
-        bottom: 4rem;
+        right: 1rem;
+        bottom: 1rem;
+    }
+
+    /* Footer Section */
+    .footer__section {
+        padding: 20px 0;
+    }
+
+    .footer__section-wrapper .col-md-6{
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     /* For About Us Page */
@@ -729,6 +743,7 @@ body {
 
     .what__business img {
         width: 50px;
+        height: 60px;
     }
 
     .what__business h4 {
