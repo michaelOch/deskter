@@ -291,7 +291,6 @@ body {
 }
 
 .business__development-options [class*="col-md-"] {
-    /*border: 1px solid var(--theme-light-royal-blue);*/
     padding-top: 40px;
     padding-bottom: 20px;
 }
@@ -304,22 +303,8 @@ body {
 }
 
 .technology__development-options .row-inside [class*="col-md-"] {
-    /*border: 1px solid var(--theme-light-royal-blue);*/
     padding-top: 40px;
     padding-bottom: 20px;
-}
-
-.options__img-wrapper--first {
-    border-radius: 50%;
-    margin-left: 20px;
-}
-
-.options__img-wrapper--first img {
-    width: 60px;
-}
-
-.options__img-wrapper--first h4 {
-    font-size: 28px;
 }
 
 .options__img-wrapper {
@@ -342,12 +327,16 @@ body {
 
 .business__development-options h4 {
     margin-top: 1rem;
+    text-align: center;
+}
+
+.technology__development-options h4 {
+    margin-top: 1rem;
+    text-align: center;
 }
 
 .business__development-options [class*="col-md-"]:first-child {
     border-radius: 20px 0 0 0;
-    background-color: var(--theme-light-royal-blue);
-    color: var(--theme-white);
 }
 
 .business__development-options [class*="col-md-"]:nth-child(4) {
@@ -362,8 +351,25 @@ body {
     border-radius: 0 0 20px 0;
 }
 
-.technology__development-options h4 {
-    margin-top: 1rem;
+.business__development-options [class*="col-md-"]:hover {
+    background-color: var(--theme-light-royal-blue);
+    color: var(--theme-white);
+    cursor: pointer;
+}
+
+.business__development-options [class*="col-md-"]:hover .options__img-wrapper {
+    margin-left: 20px;
+    width: 80px;
+    padding: 10px;
+}
+
+.business__development-options [class*="col-md-"]:hover .options__img-wrapper img {
+    width: 60px;
+}
+
+.business__development-options [class*="col-md-"]:hover h4 {
+    text-align: left;
+    font-size: 28px;
 }
 
 .border-green {
@@ -372,8 +378,6 @@ body {
 
 .technology__development-options .row-inside [class*="col-md-"]:first-child {
     border-radius: 20px 0 0 0;
-    background-color: var(--theme-aqua-green);
-    color: var(--theme-white);
 }
 
 .technology__development-options .row-inside [class*="col-md-"]:nth-child(3) {
@@ -386,6 +390,27 @@ body {
 
 .technology__development-options .row-inside [class*="col-md-"]:nth-child(6) {
     border-radius: 0 0 20px 0;
+}
+
+.technology__development-options .row-inside [class*="col-md-"]:hover {
+    background-color: var(--theme-aqua-green);
+    color: var(--theme-white);
+    cursor: pointer;
+}
+
+.technology__development-options .row-inside [class*="col-md-"]:hover .options__img-wrapper {
+    margin-left: 20px;
+    width: 80px;
+    padding: 10px;
+}
+
+.technology__development-options .row-inside [class*="col-md-"]:hover .options__img-wrapper img {
+    width: 60px;
+}
+
+.technology__development-options .row-inside [class*="col-md-"]:hover h4 {
+    text-align: left;
+    font-size: 28px;
 }
 
 /* /////////////// */
